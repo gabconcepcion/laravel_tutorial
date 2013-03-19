@@ -5,6 +5,11 @@
         <title>Instapics</title>
         {{ Asset::styles() }}
         {{ Asset::scripts() }}
+        <style type="text/css">
+        body{
+            padding-top: 60px;
+        }
+        </style>
     </head>
  
     <body>
